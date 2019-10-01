@@ -39,8 +39,9 @@ q, blockquote {
     content: "";
     content: none; }
 
-a img {
-  border: none; }
+img {
+  border-radius: 25px;
+  border: ; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
