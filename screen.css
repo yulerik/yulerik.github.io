@@ -61,7 +61,8 @@ a {
 
 h1 {
   text-align: center;
+  top: 10%;
   position: absolute;
   font-family: 'Turret Road', cursive;
-  font-size: 8em;
+  font-size: 7em;
   color: #0B8206; }
