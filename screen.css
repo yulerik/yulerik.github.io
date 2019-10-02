@@ -59,12 +59,9 @@ a {
 #main {
   padding: 50px; }
 
-  h1 {
-      font-family: 'Turret Road', cursive;
-      font-size: 6em;
-      color: #0E9908; }
-
-  h2 {
-      font-family: 'Turret Road', cursive;
-      font-size: 8em;
-      color: #0B8206; }
+h1 {
+  text-align: center;
+  position: absolute;
+  font-family: 'Turret Road', cursive;
+  font-size: 8em;
+  color: #0B8206; }
