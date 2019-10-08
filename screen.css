@@ -46,7 +46,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   padding: 1px;
   font-family: sans-serif;
-  color: #2a2a2a; }
+  color: #2a2a2a; 
+  padding-top: 3.5rem;
+}
 
 a {
   font-family: 'Montserrat', sans-serif;
@@ -57,9 +59,12 @@ a {
 #main {
   padding: 50px; }
 
-h1 {
+#like {
+  text-decoration: underline; }
+
+h3 {
   position: absolute;
-  top: 30%;
+  top: 102%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -95,6 +100,7 @@ img.outside {
   opacity: 0.7; }
 
 .me {
+  padding: 10px;
   text-align: center;
   font-size: 3em;
   color: #000000; }
