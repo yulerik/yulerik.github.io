@@ -11,6 +11,13 @@
 <!-- Custom styles for this template -->
     <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Mansalva|Montserrat|Turret+Road&display=swap" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          document.getElementById("mainHeader").onclick = function() {
+            this.style.color = 'orange'
+          }
+        })
+        </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -48,7 +55,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
-          <h1 class="display-3">Yulerik Sorensen</h1>
+          <h1 id="mainHeader" class="display-3">Yulerik Sorensen</h1>
           <p>I am a second year student at OSU-Cascades studying Computer Science. This portfolio showcases some of my work and passions.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Resume &raquo;</a></p>
         </div>
@@ -75,6 +82,7 @@
         <hr>
       </div> <!-- /container -->
     </main>
+<!-- Custom code -->
     <div id="main" role="main">
       <header>  
         <div id=top>
@@ -93,7 +101,7 @@
                 <img class="outside" src="https://mocah.org/uploads/posts/4534454-elgol-scotland-camping-tent-sea-nature-fire-campfire-rocks-mountains-sunset.jpg" alt="outside" width="300" height="200">
               </div>
             </div>
-        </section>
+          </section>
       </div>
     <footer class="container">
       <p>&copy; Yulerik Sorensen 2019-2020</p>
