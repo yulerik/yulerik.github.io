@@ -9,3 +9,10 @@ document.addEventListener("DOMContentLoaded", function() {
       this.style.color = 'orange'
     }
 })
+
+$( document ).ready(function() {
+  $( "#heading" ).click(function() {
+    $( "#heading" ).fadeOut( "slow", function() {
+    });
+  });
+});
