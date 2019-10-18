@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementsByTagName("h1").onclick = function() {
+    document.getElementsByTagName("h2").onclick = function() {
       this.style.color = 'orange'
     }
 })
