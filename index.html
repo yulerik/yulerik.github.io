@@ -15,6 +15,7 @@
     <script src="main.js"></script>
   </head>
   <body>
+<!--Navigation menu bar links-->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#">Yulerik Sorensen</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,17 +27,17 @@
             <a class="nav-link" href="https://yulerik.github.io">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
+            <a class="nav-link" href="resume.pdf" target="_blanks">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Zagster Bike Data</a>
+            <a class="nav-link disabled" href="https://yulerik.github.io/zagster-client/" target="_blank">Zagster Bike Data</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="https://github.com/yulerik" target="blank">Github</a>
               <a class="dropdown-item" href="https://stackoverflow.com/users/12146107/yulerik-sorensen?tab=profile" target="blank">Stackoverflow</a>
-              <a class="dropdown-item" href="#">Resume</a>
+              <a class="dropdown-item" href="resume.pdf">Resume</a>
             </div>
           </li>
         </ul>
@@ -47,31 +48,43 @@
       </div>
     </nav>
     <main role="main">
-<!-- Main jumbotron for a primary marketing message or call to action -->
+<!--Heading at top of page -->
       <div class="jumbotron">
         <div class="container">
           <h1 id="mainHeader" class="display-3">Yulerik Sorensen</h1>
-          <p id="heading">I am a second year student at OSU-Cascades studying Computer Science. This portfolio showcases some of my work and passions.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Resume &raquo;</a></p>
+          <p id="heading">Second year student at OSU-Cascades studying Computer Science. This portfolio showcases some of my work and passions.</p>
+          <p><a class="btn btn-primary btn-lg" href="resume.pdf" target="_blank" role="button">Resume &raquo;</a></p>
         </div>
       </div>
       <div class="container">
-<!-- Example row of columns -->
+<!--Links to different pages-->
         <div class="row">
           <div class="col-md-4">
-            <h2>Resume</h2>
-            <p>Im looking to gain experience in</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Resume &raquo;</a></p>
+            <h2 class="h2">Stackoverlow</h2>
+            <div class="info">
+              <p>My Stackoverflow profile.</p>
+            </div>
+            <div class="btn">
+              <p><a class="btn btn-secondary" href="https://stackoverflow.com/users/12146107/yulerik-sorensen?tab=profile" target="blank" role="button">Link &raquo;</a></p>
+            </div>
           </div>
           <div class="col-md-4">
-            <h2>Zagster in Bend</h2>
-            <p>View Project</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <h2 class="h2">Zagster in Bend</h2>
+            <div class="info">
+              <p>Visual data representation of Zagster bike's around Bend</p>
+            </div>
+            <div class="btn">
+              <p><a class="btn btn-secondary" href="https://yulerik.github.io/zagster-client/" target="_blank" role="button">Project &raquo;</a></p>
+            </div>
           </div>
           <div class="col-md-4">
-            <h2>Yolandi</h2>
-            <p>She is half Siberian Husky and English Mastiff</p>
-            <p><a class="btn btn-secondary" href="yolandi.jpg" target="blank" role="button">View picture &raquo;</a></p>
+            <h2 class="h2">Yolandi</h2>
+            <div class="info">
+              <p>She is half Siberian Husky and English Mastiff</p>
+            </div>
+            <div class="btn">
+              <p><a class="btn btn-secondary" href="yolandi.jpg" target="blank" role="button">Dog Picture &raquo;</a></p>
+            </div>
           </div>
         </div>
       </div> <!-- /container -->
@@ -100,8 +113,7 @@
     <footer class="container">
       <p>&copy; Yulerik Sorensen 2019-2020</p>
     </footer>
-<!-- Bootstrap core JavaScript
-    ================================================== -->
+<!-- Bootstrap core JavaScript================================================== -->
 <!-- Placed at the end of the document so the pages load faster --> 
 <!-- affects jquery link in head <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
