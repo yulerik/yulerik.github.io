@@ -117,7 +117,7 @@ img.outside {
   width: 50%; }
 
 .row {
-  text-align: center; }
+    text-align: center; }
 
 .yolandi {
   width: auto;
@@ -126,3 +126,23 @@ img.outside {
 .jumbotron {
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(135,206,235,1) 100%); }  
+
+.leftimg {
+  float: left;
+  width: 65%;
+  height: 123px;
+  object-fit: cover;
+}
+
+.info {
+  /* border: 1px solid black; */
+  float: right;
+  width: 35%;
+  bottom: 100%;
+}
+
+.hrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
