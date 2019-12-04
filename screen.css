@@ -146,3 +146,21 @@ img.outside {
   display: table;
   clear: both;
 }
+
+#hbtnlt {
+  float: left;
+}
+
+#hbtnrt {
+  margin-left: 1%;
+}
+
+#heading:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#heading {
+  margin-bottom: 5px;
+}
